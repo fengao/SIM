@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/mutliwrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <Button
+        android:id="@+id/mutlisend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mutliwrite"
+        android:layout_toRightOf="@+id/mutliwrite"
+        android:onClick="send"
+        android:text="send" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mutlisend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/mutliwrite"
+        android:layout_marginBottom="15dp" >
+
+        <ListView
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/mutlisend"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/users"
+            android:layout_width="match_parent"
+            android:layout_height="323dp" >
+        </ListView>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getRecords"
+            android:text="records" />
+
+    </LinearLayout>
+
+</RelativeLayout>

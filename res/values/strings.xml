@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WitIMessage</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">account</string>
+    <string name="please_your_account">please your account</string>
+    <string name="password">password</string>
+    <string name="please_your_password">please your password</string>
+    <string name="remeber_password">remember password</string>
+    <string name="auto_signed">auto-signed</string>
+    <string name="invisible">invisible</string>
+    <string name="muted_enter">muted enter</string>
+    <string name="enter">enter</string>
+    <string name="register">register</string>
+    <string name="logoff">注销</string>
+    <string name="backmenu">回到主菜单</string>
+    <string name="username">username</string>
+    <string name="nickname">nickname</string>
+    <string name="groupname">groupname</string>
+    <string name="add">add</string>
+    <string name="cancel">返回主菜单</string>
+    <string name="button">菜单</string>
+    <string name="addfriend">添加好友</string>
+    <string name="foundmeettingroom">创建会议室</string>
+    <string name="chatwithfriend">聊天</string>
+    <string name="findInformation">查看用户信息</string>
+    <string name="removeFriend">删除好友</string>
+    <string name="room_name">房间名</string>
+    <string name="room_describe">房间描述</string>
+    <string name="room_password">房间密码</string>
+    <string name="create">创建并加入房间</string>
+    <string name="persistent">持久</string>
+
+</resources>
